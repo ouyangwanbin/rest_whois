@@ -1,0 +1,14 @@
+{
+  "name": "rest_whois",
+  "version": "1.0.0",
+  "description": "rest api for whois query",
+  "keywords": [
+    "rest"
+  ],
+  "author": "ouyangwanbin",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.13.3",
+    "jsonwebtoken": "5.4.1"
+  }
+}
