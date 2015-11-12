@@ -1,2241 +1,677 @@
-[{
-    "name": ".com",
-    "whoisServer": "whois.verisign-grs.com",
-    "notMatchPattern": "No match for",
-    "datePattern": "dd-MMM-yyyy;yyyy-MM-dd'T'HH:mm:ss;yyyy-MM-dd'T'HH:mm:ss'Z';yyyy-MM-dd HH:mm:ss",
-    "enable": "false"
-}, {
-    "name": ".net",
-    "whoisServer": "whois.verisign-grs.com",
-    "notMatchPattern": "No match for",
-    "datePattern": "dd-MMM-yyyy;yyyy-MM-dd;yyyy-MM-dd'T'HH:mm:ss;yyyy-MM-dd HH:mm:ss",
-    "enable": "false"
-}, {
-    "name": ".mobi",
-    "whoisServer": "whois.dotmobiregistry.net",
-    "notMatchPattern": "NOT FOUND",
-    "datePattern": "dd-MMM-yyyy HH:mm:ss z",
-    "enable": "false"
-}, {
-    "name": ".cc",
-    "whoisServer": "whois.verisign-grs.com",
-    "notMatchPattern": "No match for",
-    "datePattern": "dd-MMM-yyyy;yyyy-MM-dd;yyyy-MM-dd'T'HH:mm:ss;yyyy-MM-dd HH:mm:ss",
-    "enable": "false"
-}, {
-    "name": ".biz",
-    "whoisServer": "whois.biz",
-    "notMatchPattern": "Not found:",
-    "datePattern": "yyyy-MM-dd'T'HH:mm:ss'Z';EEE MMM dd HH:mm:ss z yyyy",
-    "enable": "false"
-}, {
-    "name": ".info",
-    "whoisServer": "whois.afilias.net",
-    "whoisQueryInterval": "3000",
-    "notMatchPattern": "NOT FOUND",
-    "limitExceededPattern": "WHOIS LIMIT EXCEEDED",
-    "datePattern": "yyyy-MM-dd'T'HH:mm:ss'Z'",
-    "enable": "false"
-}, {
-    "name": ".top",
-    "whoisServer": "whois.gtld.knet.cn",
-    "datePattern": "yyyy-MM-dd'T'HH:mm:ss'Z'",
-    "reservePattern": "The name you are trying to register is reserved by the Registry;Name Collision Reservation From ICANN;The domain is reserved by the Registry or audited or limited in its access;The domain you request is prohibited;It may be reserved by the Registry or being audited or limited in its access",
-    "notMatchPattern": "No match",
-    "enable": "false"
-}, {
-    "name": ".wang",
-    "whoisServer": "whois.gtld.knet.cn",
-    "datePattern": "yyyy-MM-dd'T'HH:mm:ss'Z'",
-    "reservePattern": "The name you are trying to register is reserved by the Registry;Name Collision Reservation From ICANN;The domain is reserved by the Registry or audited or limited in its access;The domain you request is prohibited;It may be reserved by the Registry or being audited or limited in its access",
-    "notMatchPattern": "No match",
-    "enable": "false"
-}, {
-    "name": ".ren",
-    "whoisServer": "whois.gtld.knet.cn",
-    "datePattern": "yyyy-MM-dd'T'HH:mm:ss'Z'",
-    "reservePattern": "The name you are trying to register is reserved by the Registry;Name Collision Reservation From ICANN;The domain is reserved by the Registry or audited or limited in its access;The domain you request is prohibited;It may be reserved by the Registry or being audited or limited in its access",
-    "notMatchPattern": "No match",
-    "enable": "false"
-}, {
-    "name": ".cn",
-    "whoisServer": "whois.cnnic.cn",
-    "whoisQueryInterval": "1000",
-    "notMatchPattern": "no matching record;No matching record",
-    "reservePattern": "Sorry, The domain you requested is in the reserved list;the domain you want to register is reserved;The domain you requested is reserved;The domain you requested is prohibited.",
-    "enable": "true"
-}, {
-    "name": ".com.cn",
-    "whoisServer": "whois.cnnic.cn",
-    "whoisQueryInterval": "3000",
-    "notMatchPattern": "no matching record",
-    "reservePattern": "Sorry, The domain you requested is in the reserved list;the domain you want to register is reserved",
-    "enable": "false"
-}, {
-    "name": ".net.cn",
-    "whoisServer": "whois.cnnic.cn",
-    "whoisQueryInterval": "3000",
-    "notMatchPattern": "no matching record",
-    "reservePattern": "Sorry, The domain you requested is in the reserved list;the domain you want to register is reserved",
-    "enable": "false"
-}, {
-    "name": ".org.cn",
-    "whoisServer": "whois.cnnic.cn",
-    "whoisQueryInterval": "3000",
-    "notMatchPattern": "no matching record",
-    "reservePattern": "Sorry, The domain you requested is in the reserved list;the domain you want to register is reserved",
-    "enable": "false"
-}, {
-    "name": ".gov.cn",
-    "whoisServer": "whois.cnnic.cn",
-    "whoisQueryInterval": "3000",
-    "notMatchPattern": "no matching record",
-    "reservePattern": "Sorry, The domain you requested is in the reserved list;the domain you want to register is reserved",
-    "enable": "false"
-}, {
-    "name": ".中国",
-    "whoisServer": "cwhois.cnnic.cn",
-    "notMatchPattern": "no matching record",
-    "reservePattern": "reserved domain",
-    "enable": "false"
-}, {
-    "name": ".公司",
-    "whoisServer": "cwhois.cnnic.cn",
-    "notMatchPattern": "no matching record",
-    "enable": "false"
-}, {
-    "name": ".网络",
-    "whoisServer": "cwhois.cnnic.cn",
-    "notMatchPattern": "no matching record",
-    "enable": "false"
-}, {
-    "name": ".tv",
-    "whoisServer": "tvwhois.verisign-grs.com",
-    "notMatchPattern": "No match for",
-    "enable": "false"
-}, {
-    "name": ".jobs",
-    "whoisServer": "jobswhois.verisign-grs.com",
-    "notMatchPattern": "No match for",
-    "datePattern": "yyyy-MM-dd'T'HH:mm:ss'Z'",
-    "enable": "false"
-}, {
-    "name": ".gov",
-    "whoisServer": "whois.nic.gov",
-    "enable": "false"
-}, {
-    "name": ".mil",
-    "whoisServer": "whois.nic.mil",
-    "enable": "false"
-}, {
-    "name": ".org",
-    "whoisServer": "whois.publicinterestregistry.net",
-    "whoisQueryInterval": "30000",
-    "notMatchPattern": "NOT FOUND",
-    "datePattern": "yyyy-MM-dd'T'HH:mm:ss'Z';EEE MMM dd HH:mm:ss z yyyy",
-    "reservePattern": "Name is reserved by Registry_Policy",
-    "enable": "false"
-}, {
-    "name": ".tel",
-    "whoisServer": "whois.nic.tel",
-    "notMatchPattern": "No match for",
-    "enable": "false"
-}, {
-    "name": ".eu",
-    "whoisServer": "whois.eu",
-    "enable": "false"
-}, {
-    "name": ".cat",
-    "whoisServer": "whois.cat",
-    "enable": "false"
-}, {
-    "name": ".ai",
-    "whoisServer": "whois.ai",
-    "enable": "false"
-}, {
-    "name": ".bj",
-    "whoisServer": "whois.nic.bj",
-    "enable": "false"
-}, {
-    "name": ".ag",
-    "whoisServer": "whois.nic.ag",
-    "enable": "false"
-}, {
-    "name": ".at",
-    "whoisServer": "whois.nic.at",
-    "enable": "false"
-}, {
-    "name": ".as",
-    "whoisServer": "whois.nic.as",
-    "notMatchPattern": "No Object Found",
-    "enable": "false"
-}, {
-    "name": ".ci",
-    "whoisServer": "whois.nic.ci",
-    "enable": "false"
-}, {
-    "name": ".cl",
-    "whoisServer": "whois.nic.cl",
-    "enable": "false"
-}, {
-    "name": ".cx",
-    "whoisServer": "whois.nic.cx",
-    "enable": "false"
-}, {
-    "name": ".dm",
-    "whoisServer": "whois.nic.dm",
-    "enable": "false"
-}, {
-    "name": ".tm",
-    "whoisServer": "whois.nic.tm",
-    "enable": "false"
-}, {
-    "name": ".ht",
-    "whoisServer": "whois.nic.ht",
-    "enable": "false"
-}, {
-    "name": ".io",
-    "whoisServer": "whois.nic.io",
-    "enable": "false"
-}, {
-    "name": ".it",
-    "whoisServer": "whois.nic.it",
-    "enable": "false"
-}, {
-    "name": ".ki",
-    "whoisServer": "whois.nic.ki",
-    "enable": "false"
-}, {
-    "name": ".la",
-    "whoisServer": "whois.nic.la",
-    "enable": "false"
-}, {
-    "name": ".lv",
-    "whoisServer": "whois.nic.lv",
-    "enable": "false"
-}, {
-    "name": ".ly",
-    "whoisServer": "whois.nic.ly",
-    "enable": "false"
-}, {
-    "name": ".md",
-    "whoisServer": "whois.nic.md",
-    "enable": "false"
-}, {
-    "name": ".me",
-    "whoisServer": "whois.nic.me",
-    "enable": "false"
-}, {
-    "name": ".mg",
-    "whoisServer": "whois.nic.mg",
-    "enable": "false"
-}, {
-    "name": ".mu",
-    "whoisServer": "whois.nic.mu",
-    "enable": "false"
-}, {
-    "name": ".name",
-    "whoisServer": "whois.nic.name",
-    "enable": "false"
-}, {
-    "name": ".nu",
-    "whoisServer": "whois.nic.nu",
-    "enable": "false"
-}, {
-    "name": ".pr",
-    "whoisServer": "whois.nic.pr",
-    "enable": "false"
-}, {
-    "name": ".sh",
-    "whoisServer": "whois.nic.sh",
-    "enable": "false"
-}, {
-    "name": ".tl",
-    "whoisServer": "whois.nic.tl",
-    "enable": "false"
-}, {
-    "name": ".us",
-    "whoisServer": "whois.nic.us",
-    "enable": "false"
-}, {
-    "name": ".gs",
-    "whoisServer": "whois.nic.gs",
-    "enable": "false"
-}, {
-    "name": ".ae",
-    "whoisServer": "whois.aeda.net.ae",
-    "enable": "false"
-}, {
-    "name": ".am",
-    "whoisServer": "whois.amnic.net",
-    "enable": "false"
-}, {
-    "name": ".au",
-    "whoisServer": "whois.aunic.net",
-    "enable": "false"
-}, {
-    "name": ".be",
-    "whoisServer": "whois.dns.be",
-    "enable": "false"
-}, {
-    "name": ".bg",
-    "whoisServer": "whois.register.bg",
-    "enable": "false"
-}, {
-    "name": ".br",
-    "whoisServer": "whois.registro.br",
-    "enable": "false"
-}, {
-    "name": ".ca",
-    "whoisServer": "whois.cira.ca",
-    "enable": "false"
-}, {
-    "name": ".de",
-    "whoisServer": "whois.denic.de",
-    "enable": "false"
-}, {
-    "name": ".edu",
-    "whoisServer": "whois.educause.edu",
-    "enable": "false"
-}, {
-    "name": ".fi",
-    "whoisServer": "whois.ficora.fi",
-    "enable": "false"
-}, {
-    "name": ".gd",
-    "whoisServer": "whois.adamsnames.com",
-    "enable": "false"
-}, {
-    "name": ".gg",
-    "whoisServer": "whois.channelisles.net",
-    "enable": "false"
-}, {
-    "name": ".gy",
-    "whoisServer": "whois.registry.gy",
-    "enable": "false"
-}, {
-    "name": ".hk",
-    "whoisServer": "whois.hkirc.hk",
-    "enable": "false"
-}, {
-    "name": ".ie",
-    "whoisServer": "whois.domainregistry.ie",
-    "enable": "false"
-}, {
-    "name": ".il",
-    "whoisServer": "whois.isoc.org.il",
-    "enable": "false"
-}, {
-    "name": ".in",
-    "whoisServer": "whois.inregistry.net",
-    "enable": "false"
-}, {
-    "name": ".je",
-    "whoisServer": "whois.channelisles.net",
-    "enable": "false"
-}, {
-    "name": ".jp",
-    "whoisServer": "whois.jprs.jp",
-    "enable": "false"
-}, {
-    "name": ".kr",
-    "whoisServer": "whois.nic.or.kr",
-    "enable": "false"
-}, {
-    "name": ".lu",
-    "whoisServer": "whois.dns.lu",
-    "enable": "false"
-}, {
-    "name": ".ma",
-    "whoisServer": "whois.iam.net.ma",
-    "enable": "false"
-}, {
-    "name": ".nl",
-    "whoisServer": "whois.domain-registry.nl",
-    "enable": "false"
-}, {
-    "name": ".no",
-    "whoisServer": "whois.norid.no",
-    "enable": "false"
-}, {
-    "name": ".ru",
-    "whoisServer": "whois.nic.ru",
-    "enable": "false"
-}, {
-    "name": ".sa",
-    "whoisServer": "whois.nic.net.sa",
-    "enable": "false"
-}, {
-    "name": ".sb",
-    "whoisServer": "whois.nic.net.sb",
-    "enable": "false"
-}, {
-    "name": ".se",
-    "whoisServer": "whois.iis.se",
-    "enable": "false"
-}, {
-    "name": ".su",
-    "whoisServer": "whois.ripn.net",
-    "enable": "false"
-}, {
-    "name": ".tc",
-    "whoisServer": "whois.adamsnames.tc",
-    "enable": "false"
-}, {
-    "name": ".th",
-    "whoisServer": "whois.thnic.co.th",
-    "enable": "false"
-}, {
-    "name": ".to",
-    "whoisServer": "whois.tonic.to",
-    "enable": "false"
-}, {
-    "name": ".tw",
-    "whoisServer": "whois.twnic.net.tw",
-    "enable": "false"
-}, {
-    "name": ".uk",
-    "whoisServer": "whois.nic.uk",
-    "enable": "false"
-}, {
-    "name": ".uz",
-    "whoisServer": "whois.cctld.uz",
-    "enable": "false"
-}, {
-    "name": ".vg",
-    "whoisServer": "whois.adamsnames.tc",
-    "enable": "false"
-}, {
-    "name": ".ws",
-    "whoisServer": "whois.website.ws",
-    "enable": "false"
-}, {
-    "name": ".boo",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".cal",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".channel",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".chrome",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".dad",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".day",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".eat",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".esq",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".fly",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".foo",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".gbiz",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".gle",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".gmail",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".google",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".here",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".how",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".ing",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".meme",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".mov",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".new",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".nexus",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".prod",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".prof",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".rsvp",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".soy",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".youtube",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".zip",
-    "whoisServer": "domain-registry-whois.l.google.com",
-    "whoisEncoding": "UTF-8",
-    "enable": "false"
-}, {
-    "name": ".blue",
-    "whoisServer": "whois.afilias.net",
-    "enable": "false"
-}, {
-    "name": ".kim",
-    "whoisServer": "whois.afilias.net",
-    "enable": "false"
-}, {
-    "name": ".pink",
-    "whoisServer": "whois.afilias.net",
-    "enable": "false"
-}, {
-    "name": ".red",
-    "whoisServer": "whois.afilias.net",
-    "enable": "false"
-}, {
-    "name": ".shiksha",
-    "whoisServer": "whois.afilias.net",
-    "enable": "false"
-}, {
-    "name": ".global",
-    "whoisServer": "whois.afilias-srs.net",
-    "enable": "false"
-}, {
-    "name": ".onl",
-    "whoisServer": "whois.afilias-srs.net",
-    "enable": "false"
-}, {
-    "name": ".rich",
-    "whoisServer": "whois.afilias-srs.net",
-    "enable": "false"
-}, {
-    "name": ".vegas",
-    "whoisServer": "whois.afilias-srs.net",
-    "enable": "false"
-}, {
-    "name": ".gi",
-    "whoisServer": "whois2.afilias-grs.net",
-    "notMatchPattern": "NOT FOUND",
-    "enable": "false"
-}, {
-    "name": ".vc",
-    "whoisServer": "whois2.afilias-grs.net",
-    "notMatchPattern": "NOT FOUND",
-    "enable": "false"
-}, {
-    "name": ".sc",
-    "whoisServer": "whois2.afilias-grs.net",
-    "notMatchPattern": "NOT FOUND",
-    "enable": "false"
-}, {
-    "name": ".college",
-    "whoisServer": "whois.centralnic.com",
-    "enable": "false"
-}, {
-    "name": ".feedback",
-    "whoisServer": "whois.centralnic.com",
-    "enable": "false"
-}, {
-    "name": ".host",
-    "whoisServer": "whois.centralnic.com",
-    "enable": "false"
-}, {
-    "name": ".ink",
-    "whoisServer": "whois.centralnic.com",
-    "enable": "false"
-}, {
-    "name": ".press",
-    "whoisServer": "whois.centralnic.com",
-    "enable": "false"
-}, {
-    "name": ".rest",
-    "whoisServer": "whois.centralnic.com",
-    "enable": "false"
-}, {
-    "name": ".space",
-    "whoisServer": "whois.centralnic.com",
-    "enable": "false"
-}, {
-    "name": ".website",
-    "whoisServer": "whois.centralnic.com",
-    "enable": "false"
-}, {
-    "name": ".wiki",
-    "whoisServer": "whois.centralnic.com",
-    "enable": "false"
-}, {
-    "name": ".wme",
-    "whoisServer": "whois.centralnic.com",
-    "enable": "false"
-}, {
-    "name": ".academy",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".accountants",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".agency",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".associates",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".auction",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".bargains",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".bike",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".boutique",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".builders",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".business",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".cab",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".camera",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".camp",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".capital",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".cards",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".care",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".careers",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".cash",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".catering",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".center",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".cheap",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".church",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".city",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "datePattern": "yyyy-MM-dd'T'HH:mm:ss'Z'",
-    "notMatchPattern": "Domain not found.",
-    "reservePattern": "This name is reserved by the Registry in accordance with ICANN Policy",
-    "enable": "false"
-}, {
-    "name": ".claims",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".cleaning",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".clinic",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".clothing",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".codes",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".coffee",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".community",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".company",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".computer",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".condos",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".construction",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".contractors",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".cool",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".credit",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".creditcard",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".cruises",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".dating",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".deals",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".dental",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".diamonds",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".digital",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".direct",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".directory",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".discount",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".domains",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".education",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".email",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".engineering",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".enterprises",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".equipment",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".estate",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".events",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".exchange",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".expert",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".exposed",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".fail",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".farm",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".finance",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".financial",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".fish",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".fitness",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".flights",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".florist",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".foundation",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".fund",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".furniture",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".gallery",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".gifts",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".glass",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".graphics",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".gratis",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".gripe",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".guide",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".guru",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".healthcare",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".holdings",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".holiday",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".house",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".immo",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".industries",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".institute",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".insure",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".international",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".investments",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".kitchen",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".land",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".lease",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".life",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".lighting",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".limited",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".limo",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".loans",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".maison",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".management",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".marketing",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".media",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".network",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".partners",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".parts",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".photography",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".photos",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".pictures",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".pizza",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".place",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".plumbing",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".productions",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".properties",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".recipes",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".reisen",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".rentals",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".repair",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".report",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".restaurant",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".sarl",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".schule",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".services",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".shoes",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".singles",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".solar",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".solutions",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".supplies",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".supply",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".support",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".surgery",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".systems",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".tax",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".technology",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".tienda",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".tips",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".today",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "reservePattern": "This is not a domain registration. It is a DPML block.",
-    "datePattern": "yyyy-MM-dd'T'HH:mm:ss'Z'",
-    "enable": "false"
-}, {
-    "name": ".tools",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".town",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".toys",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".training",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".university",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".vacations",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".ventures",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".viajes",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".villas",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".vision",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".voyage",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".watch",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".works",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".world",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".wtf",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".zone",
-    "whoisServer": "whois.donuts.co",
-    "whoisEncoding": "UTF-8",
-    "notMatchPattern": "Domain not found.",
-    "enable": "false"
-}, {
-    "name": ".beer",
-    "whoisServer": "whois-dub.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".cooking",
-    "whoisServer": "whois-dub.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".country",
-    "whoisServer": "whois-dub.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".fishing",
-    "whoisServer": "whois-dub.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".horse",
-    "whoisServer": "whois-dub.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".luxe",
-    "whoisServer": "whois-dub.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".miami",
-    "whoisServer": "whois-dub.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".rodeo",
-    "whoisServer": "whois-dub.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".surf",
-    "whoisServer": "whois-dub.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".vodka",
-    "whoisServer": "whois-dub.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".gop",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".actor",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".airforce",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".consulting",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".dance",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".democrat",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".futbol",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".haus",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".immobilien",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".kaufen",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".moda",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".ninja",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".pub",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".reviews",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".rocks",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".social",
-    "whoisServer": "whois-cl01.mm-registry.com",
-    "enable": "false"
-}, {
-    "name": ".capetown",
-    "whoisServer": "capetown-whois.registry.net.za",
-    "enable": "false"
-}, {
-    "name": ".durban",
-    "whoisServer": "durban-whois.registry.net.za",
-    "enable": "false"
-}, {
-    "name": ".joburg",
-    "whoisServer": "joburg-whois.registry.net.za",
-    "enable": "false"
-}, {
-    "name": ".krd",
-    "whoisServer": "whois.aridnrs.net.au",
-    "enable": "false"
-}, {
-    "name": ".melbourne",
-    "whoisServer": "whois.aridnrs.net.au",
-    "enable": "false"
-}, {
-    "name": ".physio",
-    "whoisServer": "whois.aridnrs.net.au",
-    "enable": "false"
-}, {
-    "name": ".wtc",
-    "whoisServer": "whois.aridnrs.net.au",
-    "enable": "false"
-}, {
-    "name": ".brussels",
-    "whoisServer": "whois.brussels.tld-box.at",
-    "enable": "false"
-}, {
-    "name": ".kiwi",
-    "whoisServer": "whois.dot-kiwi.com",
-    "enable": "false"
-}, {
-    "name": ".eus",
-    "whoisServer": "whois.eus.coreregistry.net",
-    "enable": "false"
-}, {
-    "name": ".gal",
-    "whoisServer": "whois.gal.coreregistry.net",
-    "enable": "false"
-}, {
-    "name": ".globo",
-    "whoisServer": "whois.gtlds.nic.br",
-    "enable": "false"
-}, {
-    "name": ".rio",
-    "whoisServer": "whois.gtlds.nic.br",
-    "enable": "false"
-}, {
-    "name": ".uol",
-    "whoisServer": "whois.gtlds.nic.br",
-    "enable": "false"
-}, {
-    "name": ".hamburg",
-    "whoisServer": "whois.hamburg.tld-box.at",
-    "enable": "false"
-}, {
-    "name": ".archi",
-    "whoisServer": "whois.ksregistry.net",
-    "enable": "false"
-}, {
-    "name": ".bio",
-    "whoisServer": "whois.ksregistry.net",
-    "enable": "false"
-}, {
-    "name": ".bmw",
-    "whoisServer": "whois.ksregistry.net",
-    "enable": "false"
-}, {
-    "name": ".desi",
-    "whoisServer": "whois.ksregistry.net",
-    "enable": "false"
-}, {
-    "name": ".mini",
-    "whoisServer": "whois.ksregistry.net",
-    "enable": "false"
-}, {
-    "name": ".saarland",
-    "whoisServer": "whois.ksregistry.net",
-    "enable": "false"
-}, {
-    "name": ".spiegel",
-    "whoisServer": "whois.ksregistry.net",
-    "enable": "false"
-}, {
-    "name": ".mango",
-    "whoisServer": "whois.mango.coreregistry.net",
-    "enable": "false"
-}, {
-    "name": ".museum",
-    "whoisServer": "whois.museum",
-    "enable": "false"
-}, {
-    "name": ".active",
-    "whoisServer": "whois.nic.active",
-    "enable": "false"
-}, {
-    "name": ".autos",
-    "whoisServer": "whois.nic.autos",
-    "enable": "false"
-}, {
-    "name": ".axa",
-    "whoisServer": "whois.nic.axa",
-    "enable": "false"
-}, {
-    "name": ".bar",
-    "whoisServer": "whois.nic.bar",
-    "enable": "false"
-}, {
-    "name": ".berlin",
-    "whoisServer": "whois.nic.berlin",
-    "enable": "false"
-}, {
-    "name": ".best",
-    "whoisServer": "whois.nic.best",
-    "notMatchPattern": "Not found:",
-    "datePattern": "yyyy-MM-dd'T'HH:mm:ss'Z'",
-    "enable": "false"
-}, {
-    "name": ".bid",
-    "whoisServer": "whois.nic.bid",
-    "enable": "false"
-}, {
-    "name": ".black",
-    "whoisServer": "whois.nic.black",
-    "enable": "false"
-}, {
-    "name": ".bnpparibas",
-    "whoisServer": "whois.nic.bnpparibas",
-    "enable": "false"
-}, {
-    "name": ".build",
-    "whoisServer": "whois.nic.build",
-    "enable": "false"
-}, {
-    "name": ".buzz",
-    "whoisServer": "whois.nic.buzz",
-    "enable": "false"
-}, {
-    "name": ".cancerresearch",
-    "whoisServer": "whois.nic.cancerresearch",
-    "enable": "false"
-}, {
-    "name": ".caravan",
-    "whoisServer": "whois.nic.caravan",
-    "enable": "false"
-}, {
-    "name": ".career",
-    "whoisServer": "whois.nic.career",
-    "enable": "false"
-}, {
-    "name": ".ceo",
-    "whoisServer": "whois.nic.ceo",
-    "enable": "false"
-}, {
-    "name": ".cern",
-    "whoisServer": "whois.nic.cern",
-    "enable": "false"
-}, {
-    "name": ".citic",
-    "whoisServer": "whois.nic.citic",
-    "enable": "false"
-}, {
-    "name": ".club",
-    "whoisServer": "whois.nic.club",
-    "notMatchPattern": "Not found:",
-    "datePattern": "yyyy-MM-dd'T'HH:mm:ss'Z'",
-    "reservePattern": "This name is reserved by the Registry in accordance with ICANN Policy",
-    "enable": "false"
-}, {
-    "name": ".cologne",
-    "whoisServer": "whois.nic.cologne",
-    "enable": "false"
-}, {
-    "name": ".cuisinella",
-    "whoisServer": "whois.nic.cuisinella",
-    "enable": "false"
-}, {
-    "name": ".cymru",
-    "whoisServer": "whois.nic.cymru",
-    "enable": "false"
-}, {
-    "name": ".dnp",
-    "whoisServer": "whois.nic.dnp",
-    "enable": "false"
-}, {
-    "name": ".frl",
-    "whoisServer": "whois.nic.frl",
-    "enable": "false"
-}, {
-    "name": ".gent",
-    "whoisServer": "whois.nic.gent",
-    "enable": "false"
-}, {
-    "name": ".gmo",
-    "whoisServer": "whois.nic.gmo",
-    "enable": "false"
-}, {
-    "name": ".green",
-    "whoisServer": "whois.nic.green",
-    "enable": "false"
-}, {
-    "name": ".hiv",
-    "whoisServer": "whois.nic.hiv",
-    "enable": "false"
-}, {
-    "name": ".homes",
-    "whoisServer": "whois.nic.homes",
-    "enable": "false"
-}, {
-    "name": ".jetzt",
-    "whoisServer": "whois.nic.jetzt",
-    "enable": "false"
-}, {
-    "name": ".koeln",
-    "whoisServer": "whois.nic.koeln",
-    "enable": "false"
-}, {
-    "name": ".kred",
-    "whoisServer": "whois.nic.kred",
-    "enable": "false"
-}, {
-    "name": ".lacaixa",
-    "whoisServer": "whois.nic.lacaixa",
-    "enable": "false"
-}, {
-    "name": ".lgbt",
-    "whoisServer": "whois.nic.lgbt",
-    "enable": "false"
-}, {
-    "name": ".london",
-    "whoisServer": "whois.nic.london",
-    "enable": "false"
-}, {
-    "name": ".lotto",
-    "whoisServer": "whois.nic.lotto",
-    "enable": "false"
-}, {
-    "name": ".ltda",
-    "whoisServer": "whois.nic.ltda",
-    "enable": "false"
-}, {
-    "name": ".luxury",
-    "whoisServer": "whois.nic.luxury",
-    "enable": "false"
-}, {
-    "name": ".meet",
-    "whoisServer": "whois.nic.meet",
-    "enable": "false"
-}, {
-    "name": ".menu",
-    "whoisServer": "whois.nic.menu",
-    "enable": "false"
-}, {
-    "name": ".moe",
-    "whoisServer": "whois.nic.moe",
-    "enable": "false"
-}, {
-    "name": ".monash",
-    "whoisServer": "whois.nic.monash",
-    "enable": "false"
-}, {
-    "name": ".moscow",
-    "whoisServer": "whois.nic.moscow",
-    "enable": "false"
-}, {
-    "name": ".motorcycles",
-    "whoisServer": "whois.nic.motorcycles",
-    "enable": "false"
-}, {
-    "name": ".nagoya",
-    "whoisServer": "whois.nic.nagoya",
-    "enable": "false"
-}, {
-    "name": ".neustar",
-    "whoisServer": "whois.nic.neustar",
-    "enable": "false"
-}, {
-    "name": ".ngo",
-    "whoisServer": "whois.nic.ngo",
-    "enable": "false"
-}, {
-    "name": ".nhk",
-    "whoisServer": "whois.nic.nhk",
-    "enable": "false"
-}, {
-    "name": ".nra",
-    "whoisServer": "whois.nic.nra",
-    "enable": "false"
-}, {
-    "name": ".nrw",
-    "whoisServer": "whois.nic.nrw",
-    "enable": "false"
-}, {
-    "name": ".nyc",
-    "whoisServer": "whois.nic.nyc",
-    "enable": "false"
-}, {
-    "name": ".okinawa",
-    "whoisServer": "whois.nic.okinawa",
-    "enable": "false"
-}, {
-    "name": ".ong",
-    "whoisServer": "whois.nic.ong",
-    "enable": "false"
-}, {
-    "name": ".ooo",
-    "whoisServer": "whois.nic.ooo",
-    "enable": "false"
-}, {
-    "name": ".organic",
-    "whoisServer": "whois.nic.organic",
-    "enable": "false"
-}, {
-    "name": ".paris",
-    "whoisServer": "whois.nic.paris",
-    "enable": "false"
-}, {
-    "name": ".praxi",
-    "whoisServer": "whois.nic.praxi",
-    "enable": "false"
-}, {
-    "name": ".qpon",
-    "whoisServer": "whois.nic.qpon",
-    "enable": "false"
-}, {
-    "name": ".realtor",
-    "whoisServer": "whois.nic.realtor",
-    "enable": "false"
-}, {
-    "name": ".ruhr",
-    "whoisServer": "whois.nic.ruhr",
-    "enable": "false"
-}, {
-    "name": ".ryukyu",
-    "whoisServer": "whois.nic.ryukyu",
-    "enable": "false"
-}, {
-    "name": ".sca",
-    "whoisServer": "whois.nic.sca",
-    "enable": "false"
-}, {
-    "name": ".scb",
-    "whoisServer": "whois.nic.scb",
-    "enable": "false"
-}, {
-    "name": ".schmidt",
-    "whoisServer": "whois.nic.schmidt",
-    "enable": "false"
-}, {
-    "name": ".sohu",
-    "whoisServer": "whois.nic.sohu",
-    "enable": "false"
-}, {
-    "name": ".suzuki",
-    "whoisServer": "whois.nic.suzuki",
-    "enable": "false"
-}, {
-    "name": ".tatar",
-    "whoisServer": "whois.nic.tatar",
-    "enable": "false"
-}, {
-    "name": ".tokyo",
-    "whoisServer": "whois.nic.tokyo",
-    "enable": "false"
-}, {
-    "name": ".trade",
-    "whoisServer": "whois.nic.trade",
-    "enable": "false"
-}, {
-    "name": ".uno",
-    "whoisServer": "whois.nic.uno",
-    "enable": "false"
-}, {
-    "name": ".vote",
-    "whoisServer": "whois.nic.vote",
-    "enable": "false"
-}, {
-    "name": ".voto",
-    "whoisServer": "whois.nic.voto",
-    "enable": "false"
-}, {
-    "name": ".wales",
-    "whoisServer": "whois.nic.wales",
-    "enable": "false"
-}, {
-    "name": ".webcam",
-    "whoisServer": "whois.nic.webcam",
-    "enable": "false"
-}, {
-    "name": ".wed",
-    "whoisServer": "whois.nic.wed",
-    "enable": "false"
-}, {
-    "name": ".whoswho",
-    "whoisServer": "whois.nic.whoswho",
-    "enable": "false"
-}, {
-    "name": ".wien",
-    "whoisServer": "whois.nic.wien",
-    "enable": "false"
-}, {
-    "name": ".williamhill",
-    "whoisServer": "whois.nic.williamhill",
-    "enable": "false"
-}, {
-    "name": ".xyz",
-    "whoisServer": "whois.nic.xyz",
-    "whoisQueryInterval": "30000",
-    "notMatchPattern": "DOMAIN NOT FOUND",
-    "reservePattern": "This domain is not available for registration",
-    "datePattern": "yyyy-MM-dd'T'HH:mm:ss.S'Z'",
-    "limitExceededPattern": "please try again later",
-    "enable": "false"
-}, {
-    "name": ".yachts",
-    "whoisServer": "whois.nic.yachts",
-    "enable": "false"
-}, {
-    "name": ".yandex",
-    "whoisServer": "whois.nic.yandex",
-    "enable": "false"
-}, {
-    "name": ".yokohama",
-    "whoisServer": "whois.nic.yokohama",
-    "enable": "false"
-}, {
-    "name": ".quebec",
-    "whoisServer": "whois.quebec.rs.corenic.net",
-    "enable": "false"
-}, {
-    "name": ".reise",
-    "whoisServer": "whois.reise.tld-box.at",
-    "enable": "false"
-}, {
-    "name": ".army",
-    "whoisServer": "whois.rightside.co",
-    "enable": "false"
-}, {
-    "name": ".attorney",
-    "whoisServer": "whois.rightside.co",
-    "enable": "false"
-}, {
-    "name": ".degree",
-    "whoisServer": "whois.rightside.co",
-    "enable": "false"
-}, {
-    "name": ".dentist",
-    "whoisServer": "whois.rightside.co",
-    "enable": "false"
-}, {
-    "name": ".engineer",
-    "whoisServer": "whois.rightside.co",
-    "enable": "false"
-}, {
-    "name": ".gives",
-    "whoisServer": "whois.rightside.co",
-    "enable": "false"
-}, {
-    "name": ".lawyer",
-    "whoisServer": "whois.rightside.co",
-    "enable": "false"
-}, {
-    "name": ".market",
-    "whoisServer": "whois.rightside.co",
-    "enable": "false"
-}, {
-    "name": ".mortgage",
-    "whoisServer": "whois.rightside.co",
-    "enable": "false"
-}, {
-    "name": ".navy",
-    "whoisServer": "whois.rightside.co",
-    "enable": "false"
-}, {
-    "name": ".rehab",
-    "whoisServer": "whois.rightside.co",
-    "enable": "false"
-}, {
-    "name": ".republican",
-    "whoisServer": "whois.rightside.co",
-    "enable": "false"
-}, {
-    "name": ".software",
-    "whoisServer": "whois.rightside.co",
-    "enable": "false"
-}, {
-    "name": ".vet",
-    "whoisServer": "whois.rightside.co",
-    "enable": "false"
-}, {
-    "name": ".scot",
-    "whoisServer": "whois.scot.coreregistry.net",
-    "enable": "false"
-}, {
-    "name": ".tirol",
-    "whoisServer": "whois.tirol.tld-box.at",
-    "enable": "false"
-}, {
-    "name": ".audio",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".blackfriday",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".christmas",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".click",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".diet",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".gift",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".guitars",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".help",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".hiphop",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".hosting",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".juegos",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".link",
-    "whoisServer": "whois.uniregistry.net",
-    "notMatchPattern": "is available for registration",
-    "datePattern": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
-    "reservePattern": "This name is not available for registration",
-    "enable": "false"
-}, {
-    "name": ".photo",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".pics",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".property",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".sexy",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".tattoo",
-    "whoisServer": "whois.uniregistry.net",
-    "enable": "false"
-}, {
-    "name": ".versicherung",
-    "whoisServer": "whois.versicherung.tld-box.at",
-    "enable": "false"
-}, {
-    "name": ".vlaanderen",
-    "whoisServer": "whois.vlaanderen.tld-box.at",
-    "enable": "false"
-}, {
-    "name": ".voting",
-    "whoisServer": "whois.voting.tld-box.at",
-    "enable": "false"
-}, {
-    "name": ".bzh",
-    "whoisServer": "whois-bzh.nic.fr",
-    "enable": "false"
-}, {
-    "name": ".gmx",
-    "whoisServer": "whois-fe1.gmx.tango.knipp.de",
-    "enable": "false"
-}, {
-    "name": ".frogans",
-    "whoisServer": "whois-frogans.nic.fr",
-    "enable": "false"
-}, {
-    "name": ".ovh",
-    "whoisServer": "whois-ovh.nic.fr",
-    "enable": "false"
-}]
+{
+  "br.com": "whois.centralnic.net",
+  "cn.com": "whois.centralnic.net",
+  "de.com": "whois.centralnic.net",
+  "eu.com": "whois.centralnic.net",
+  "gb.com": "whois.centralnic.net",
+  "gb.net": "whois.centralnic.net",
+  "gr.com": "whois.centralnic.net",
+  "hu.com": "whois.centralnic.net",
+  "in.net": "whois.centralnic.net",
+  "jpn.com": "whois.centralnic.net",
+  "no.com": "whois.centralnic.net",
+  "qc.com": "whois.centralnic.net",
+  "ru.com": "whois.centralnic.net",
+  "sa.com": "whois.centralnic.net",
+  "se.com": "whois.centralnic.net",
+  "se.net": "whois.centralnic.net",
+  "uk.com": "whois.centralnic.net",
+  "uk.net": "whois.centralnic.net",
+  "us.com": "whois.centralnic.net",
+  "uy.com": "whois.centralnic.net",
+  "web.com": "whois.centralnic.net",
+  "za.com": "whois.centralnic.net",
+  "com": {
+    "host": "whois.verisign-grs.com",
+    "query": "DOMAIN $addr\r\n"
+  },
+
+  "za.net": "whois.za.net",
+  "net": {
+    "host": "whois.verisign-grs.com",
+    "query": "DOMAIN $addr\r\n"
+  },
+
+  "eu.org": "whois.eu.org",
+  "za.org": "whois.za.org",
+  "org": "whois.pir.org",
+
+  "edu": "whois.educause.edu",
+  "gov": "whois.dotgov.gov",
+  "int": "whois.iana.org",
+  "mil": null,
+
+  "e164.arpa": "whois.ripe.net",
+  "in-addr.arpa": null,
+  "arpa": "whois.iana.org",
+
+  "aero": "whois.aero",
+  "asia": "whois.nic.asia",
+  "biz": "whois.biz",
+  "cat": "whois.cat",
+  "coop": "whois.nic.coop",
+  "info": "whois.afilias.net",
+  "jobs": "jobswhois.verisign-grs.com",
+  "mobi": "whois.dotmobiregistry.net",
+  "museum": "whois.museum",
+  "name": "whois.nic.name",
+  "post": "whois.dotpostregistry.net",
+  "pro": "whois.dotproregistry.net",
+  "tel": "whois.nic.tel",
+  "travel": "whois.nic.travel",
+  "xxx": "whois.nic.xxx",
+
+  "academy": "whois.nic.academy",
+  "accountants": "whois.nic.accountants",
+  "actor": "whois.nic.actor",
+  "agency": "whois.nic.agency",
+  "airforce": "whois.nic.airforce",
+  "archi": "whois.nic.archi",
+  "associates": "whois.nic.associates",
+  "audio": "whois.nic.audio",
+  "autos": "whois.nic.autos",
+  "axa": "whois.nic.axa",
+  "bar": "whois.nic.bar",
+  "bargains": "whois.nic.bargains",
+  "bayern": "whois.nic.bayern",
+  "beer": "whois.nic.beer",
+  "berlin": "whois.nic.berlin",
+  "best": "whois.nic.best",
+  "bid": "whois.nic.bid",
+  "bike": "whois.nic.bike",
+  "black": "whois.nic.black",
+  "blackfriday": "whois.nic.blackfriday",
+  "blue": "whois.nic.blue",
+  "boutique": "whois.nic.boutique",
+  "build": "whois.nic.build",
+  "builders": "whois.nic.builders",
+  "buzz": "whois.nic.buzz",
+  "cab": "whois.nic.cab",
+  "camera": "whois.nic.camera",
+  "camp": "whois.nic.camp",
+  "capital": "whois.nic.capital",
+  "cards": "whois.nic.cards",
+  "care": "whois.nic.care",
+  "career": "whois.nic.career",
+  "careers": "whois.nic.careers",
+  "cash": "whois.nic.cash",
+  "catering": "whois.nic.catering",
+  "center": "whois.nic.center",
+  "ceo": "whois.nic.ceo",
+  "cheap": "whois.nic.cheap",
+  "christmas": "whois.nic.christmas",
+  "church": "whois.nic.church",
+  "citic": "whois.nic.citic",
+  "claims": "whois.nic.claims",
+  "cleaning": "whois.nic.cleaning",
+  "clinic": "whois.nic.clinic",
+  "clothing": "whois.nic.clothing",
+  "club": "whois.nic.club",
+  "codes": "whois.nic.codes",
+  "coffee": "whois.nic.coffee",
+  "college": "whois.nic.college",
+  "cologne": "whois.nic.cologne",
+  "community": "whois.nic.community",
+  "company": "whois.nic.company",
+  "computer": "whois.nic.computer",
+  "condos": "whois.nic.condos",
+  "construction": "whois.nic.construction",
+  "consulting": "whois.nic.consulting",
+  "contractors": "whois.nic.contractors",
+  "cooking": "whois.nic.cooking",
+  "cool": "whois.nic.cool",
+  "country": "whois.nic.country",
+  "credit": "whois.nic.credit",
+  "creditcard": "whois.nic.creditcard",
+  "cruises": "whois.nic.cruises",
+  "dance": "whois.nic.dance",
+  "dating": "whois.nic.dating",
+  "democrat": "whois.nic.democrat",
+  "dental": "whois.nic.dental",
+  "desi": "whois.nic.desi",
+  "diamonds": "whois.nic.diamonds",
+  "digital": "whois.nic.digital",
+  "directory": "whois.nic.directory",
+  "discount": "whois.nic.discount",
+  "dnp": "whois.nic.dnp",
+  "domains": "whois.nic.domains",
+  "education": "whois.nic.education",
+  "email": "whois.nic.email",
+  "engineering": "whois.nic.engineering",
+  "enterprises": "whois.nic.enterprises",
+  "equipment": "whois.nic.equipment",
+  "estate": "whois.nic.estate",
+  "eus": "whois.nic.eus",
+  "events": "whois.nic.events",
+  "exchange": "whois.nic.exchange",
+  "expert": "whois.nic.expert",
+  "exposed": "whois.nic.exposed",
+  "fail": "whois.nic.fail",
+  "farm": "whois.nic.farm",
+  "feedback": "whois.nic.feedback",
+  "finance": "whois.nic.finance",
+  "financial": "whois.nic.financial",
+  "fish": "whois.nic.fish",
+  "fishing": "whois.nic.fishing",
+  "fitness": "whois.nic.fitness",
+  "flights": "whois.nic.flights",
+  "florist": "whois.nic.florist",
+  "foo": "whois.nic.foo",
+  "foundation": "whois.nic.foundation",
+  "frogans": "whois.nic.frogans",
+  "fund": "whois.nic.fund",
+  "furniture": "whois.nic.furniture",
+  "futbol": "whois.nic.futbol",
+  "gal": "whois.nic.gal",
+  "gallery": "whois.nic.gallery",
+  "gift": "whois.nic.gift",
+  "glass": "whois.nic.glass",
+  "globo": "whois.nic.globo",
+  "gmo": "whois.nic.gmo",
+  "gop": "whois.nic.gop",
+  "graphics": "whois.nic.graphics",
+  "gratis": "whois.nic.gratis",
+  "gripe": "whois.nic.gripe",
+  "guide": "whois.nic.guide",
+  "guitars": "whois.nic.guitars",
+  "guru": "whois.nic.guru",
+  "haus": "whois.nic.haus",
+  "hiphop": "whois.nic.hiphop",
+  "holdings": "whois.nic.holdings",
+  "holiday": "whois.nic.holiday",
+  "homes": "whois.nic.homes",
+  "horse": "whois.nic.horse",
+  "house": "whois.nic.house",
+  "immobilien": "whois.nic.immobilien",
+  "industries": "whois.nic.industries",
+  "info": "whois.nic.info",
+  "ink": "whois.nic.ink",
+  "institute": "whois.nic.institute",
+  "insure": "whois.nic.insure",
+  "international": "whois.nic.international",
+  "investments": "whois.nic.investments",
+  "jetzt": "whois.nic.jetzt",
+  "juegos": "whois.nic.juegos",
+  "kaufen": "whois.nic.kaufen",
+  "kim": "whois.nic.kim",
+  "kitchen": "whois.nic.kitchen",
+  "kiwi": "whois.nic.kiwi",
+  "koeln": "whois.nic.koeln",
+  "kred": "whois.nic.kred",
+  "land": "whois.nic.land",
+  "lease": "whois.nic.lease",
+  "life": "whois.nic.life",
+  "lighting": "whois.nic.lighting",
+  "limited": "whois.nic.limited",
+  "limo": "whois.nic.limo",
+  "link": "whois.nic.link",
+  "loans": "whois.nic.loans",
+  "london": "whois.nic.london",
+  "luxe": "whois.nic.luxe",
+  "luxury": "whois.nic.luxury",
+  "maison": "whois.nic.maison",
+  "management": "whois.nic.management",
+  "mango": "whois.nic.mango",
+  "marketing": "whois.nic.marketing",
+  "media": "whois.nic.media",
+  "meet": "whois.nic.meet",
+  "menu": "whois.nic.menu",
+  "miami": "whois.nic.miami",
+  "moda": "whois.nic.moda",
+  "moe": "whois.nic.moe",
+  "monash": "whois.nic.monash",
+  "moscow": "whois.nic.moscow",
+  "motorcycles": "whois.nic.motorcycles",
+  "nagoya": "whois.nic.nagoya",
+  "neustar": "whois.nic.neustar",
+  "ninja": "whois.nic.ninja",
+  "nyc": "whois.nic.nyc",
+  "okinawa": "whois.nic.okinawa",
+  "onl": "whois.nic.onl",
+  "paris": "whois.nic.paris",
+  "partners": "whois.nic.partners",
+  "parts": "whois.nic.parts",
+  "photo": "whois.nic.photo",
+  "photography": "whois.nic.photography",
+  "photos": "whois.nic.photos",
+  "pics": "whois.nic.pics",
+  "pictures": "whois.nic.pictures",
+  "pink": "whois.nic.pink",
+  "plumbing": "whois.nic.plumbing",
+  "productions": "whois.nic.productions",
+  "properties": "whois.nic.properties",
+  "pub": "whois.nic.pub",
+  "qpon": "whois.nic.qpon",
+  "quebec": "whois.nic.quebec",
+  "recipes": "whois.nic.recipes",
+  "red": "whois.nic.red",
+  "reise": "whois.nic.reise",
+  "reisen": "whois.nic.reisen",
+  "ren": "whois.nic.ren",
+  "rentals": "whois.nic.rentals",
+  "repair": "whois.nic.repair",
+  "report": "whois.nic.report",
+  "rest": "whois.nic.rest",
+  "reviews": "whois.nic.reviews",
+  "rich": "whois.nic.rich",
+  "rio": "whois.nic.rio",
+  "rocks": "whois.nic.rocks",
+  "rodeo": "whois.nic.rodeo",
+  "ruhr": "whois.nic.ruhr",
+  "ryukyu": "whois.nic.ryukyu",
+  "saarland": "whois.nic.saarland",
+  "schule": "whois.nic.schule",
+  "services": "whois.nic.services",
+  "sexy": "whois.nic.sexy",
+  "shiksha": "whois.nic.shiksha",
+  "shoes": "whois.nic.shoes",
+  "singles": "whois.nic.singles",
+  "social": "whois.nic.social",
+  "sohu": "whois.nic.sohu",
+  "solar": "whois.nic.solar",
+  "solutions": "whois.nic.solutions",
+  "soy": "whois.nic.soy",
+  "space": "whois.nic.space",
+  "supplies": "whois.nic.supplies",
+  "supply": "whois.nic.supply",
+  "support": "whois.nic.support",
+  "surgery": "whois.nic.surgery",
+  "systems": "whois.nic.systems",
+  "tattoo": "whois.nic.tattoo",
+  "tax": "whois.nic.tax",
+  "technology": "whois.nic.technology",
+  "tienda": "whois.nic.tienda",
+  "tips": "whois.nic.tips",
+  "today": "whois.nic.today",
+  "tokyo": "whois.nic.tokyo",
+  "tools": "whois.nic.tools",
+  "town": "whois.nic.town",
+  "toys": "whois.nic.toys",
+  "trade": "whois.nic.trade",
+  "training": "whois.nic.training",
+  "university": "whois.nic.university",
+  "uno": "whois.nic.uno",
+  "vacations": "whois.nic.vacations",
+  "vegas": "whois.nic.vegas",
+  "ventures": "whois.nic.ventures",
+  "versicherung": "whois.nic.versicherung",
+  "viajes": "whois.nic.viajes",
+  "villas": "whois.nic.villas",
+  "vision": "whois.nic.vision",
+  "vodka": "whois.nic.vodka",
+  "vote": "whois.nic.vote",
+  "voting": "whois.nic.voting",
+  "voto": "whois.nic.voto",
+  "voyage": "whois.nic.voyage",
+  "wang": "whois.nic.wang",
+  "watch": "whois.nic.watch",
+  "webcam": "whois.nic.webcam",
+  "wed": "whois.nic.wed",
+  "wien": "whois.nic.wien",
+  "wiki": "whois.nic.wiki",
+  "works": "whois.nic.works",
+  "wtc": "whois.nic.wtc",
+  "wtf": "whois.nic.wtf",
+  "xn--3bst00m": "whois.nic.xn--3bst00m",
+  "xn--3ds443g": "whois.nic.xn--3ds443g",
+  "xn--55qw42g": "whois.nic.xn--55qw42g",
+  "xn--55qx5d": "whois.nic.xn--55qx5d",
+  "xn--6frz82g": "whois.nic.xn--6frz82g",
+  "xn--6qq986b3xl": "whois.nic.xn--6qq986b3xl",
+  "xn--80adxhks": "whois.nic.xn--80adxhks",
+  "xn--80asehdb": "whois.nic.xn--80asehdb",
+  "xn--80aswg": "whois.nic.xn--80aswg",
+  "xn--c1avg": "whois.nic.xn--c1avg",
+  "xn--cg4bki": "whois.nic.xn--cg4bki",
+  "xn--czr694b": "whois.nic.xn--czr694b",
+  "xn--czru2d": "whois.nic.xn--czru2d",
+  "xn--d1acj3b": "whois.nic.xn--d1acj3b",
+  "xn--fiq228c5hs": "whois.nic.xn--fiq228c5hs",
+  "xn--fiq64b": "whois.nic.xn--fiq64b",
+  "xn--i1b6b1a6a2e": "whois.nic.xn--i1b6b1a6a2e",
+  "xn--io0a7i": "whois.nic.xn--io0a7i",
+  "xn--mgbab2bd": "whois.nic.xn--mgbab2bd",
+  "xn--ngbc5azd": "whois.nic.xn--ngbc5azd",
+  "xn--nqv7f": "whois.nic.xn--nqv7f",
+  "xn--nqv7fs00ema": "whois.nic.xn--nqv7fs00ema",
+  "xn--q9jyb4c": "whois.nic.xn--q9jyb4c",
+  "xn--rhqv96g": "whois.nic.xn--rhqv96g",
+  "xn--ses554g": "whois.nic.xn--ses554g",
+  "xn--unup4y": "whois.nic.xn--unup4y",
+  "xn--zfr164b": "whois.nic.xn--zfr164b",
+  "xyz": "whois.nic.xyz",
+  "yachts": "whois.nic.yachts",
+  "yokohama": "whois.nic.yokohama",
+  "zone": "whois.nic.zone",
+
+  "ac": "whois.nic.ac",
+  "ad": null,
+  "ae": "whois.aeda.net.ae",
+  "af": "whois.nic.af",
+  "ag": "whois.nic.ag",
+  "ai": "whois.ai",
+  "al": null,
+  "am": "whois.amnic.net",
+  "an": null,
+  "ao": null,
+  "aq": null,
+  "ar": null,
+  "as": "whois.nic.as",
+  "priv.at": "whois.nic.priv.at",
+  "at": "whois.nic.at",
+  "au": "whois.audns.net.au",
+  "aw": "whois.nic.aw",
+  "ax": "whois.ax",
+  "az": null,
+  "ba": null,
+  "bb": null,
+  "bd": null,
+  "be": "whois.dns.be",
+  "bf": null,
+  "bg": "whois.register.bg",
+  "bh": null,
+  "bi": "whois1.nic.bi",
+  "bj": "whois.nic.bj",
+  "bl": null,
+  "bm": null,
+  "bn": "whois.bn",
+  "bo": "whois.nic.bo",
+  "bq": null,
+  "br": "whois.registro.br",
+  "bs": null,
+  "bt": null,
+  "bv": null,
+  "by": "whois.cctld.by",
+  "bw": "whois.nic.net.bw",
+  "bz": "whois.afilias-grs.info",
+  "co.ca": "whois.co.ca",
+  "ca": "whois.cira.ca",
+  "cc": "ccwhois.verisign-grs.com",
+  "cd": "whois.nic.cd",
+  "cf": "whois.dot.cf",
+  "cg": null,
+  "ch": "whois.nic.ch",
+  "ci": "whois.nic.ci",
+  "ck": null,
+  "cl": "whois.nic.cl",
+  "cm": "whois.netcom.cm",
+  "edu.cn": "whois.edu.cn",
+  "cn": "whois.cnnic.cn",
+  "uk.co": "whois.uk.co",
+  "co": "whois.nic.co",
+  "cr": null,
+  "cu": null,
+  "cv": null,
+  "cw": null,
+  "cx": "whois.nic.cx",
+  "cy": null,
+  "cz": "whois.nic.cz",
+  "de": "whois.denic.de",
+  "dj": null,
+  "dk": "whois.dk-hostmaster.dk",
+  "dm": "whois.nic.dm",
+  "do": null,
+  "dz": "whois.nic.dz",
+  "ec": "whois.nic.ec",
+  "ee": "whois.tld.ee",
+  "eg": null,
+  "eh": null,
+  "er": null,
+  "es": null,
+  "et": null,
+  "eu": "whois.eu",
+  "fi": "whois.fi",
+  "fj": "whois.usp.ac.fj",
+  "fk": null,
+  "fm": null,
+  "fo": "whois.nic.fo",
+  "fr": "whois.nic.fr",
+  "ga": "whois.dot.ga",
+  "gb": null,
+  "gd": "whois.nic.gd",
+  "ge": null,
+  "gf": null,
+  "gg": "whois.gg",
+  "gh": null,
+  "gi": "whois.afilias-grs.info",
+  "gl": "whois.nic.gl",
+  "gm": null,
+  "gn": null,
+  "gp": null,
+  "gq": null,
+  "gr": null,
+  "gs": "whois.nic.gs",
+  "gt": null,
+  "gu": null,
+  "gw": null,
+  "gy": "whois.registry.gy",
+  "hk": "whois.hkirc.hk",
+  "hm": "whois.registry.hm",
+  "hn": "whois.nic.hn",
+  "hr": "whois.dns.hr",
+  "ht": "whois.nic.ht",
+  "hu": "whois.nic.hu",
+  "id": "whois.pandi.or.id",
+  "ie": "whois.domainregistry.ie",
+  "il": "whois.isoc.org.il",
+  "im": "whois.nic.im",
+  "in": "whois.inregistry.net",
+  "io": "whois.nic.io",
+  "iq": "whois.cmc.iq",
+  "ir": "whois.nic.ir",
+  "is": "whois.isnic.is",
+  "it": "whois.nic.it",
+  "je": "whois.je",
+  "jm": null,
+  "jo": null,
+  "jp": "whois.jprs.jp",
+  "ke": "whois.kenic.or.ke",
+  "kg": "whois.domain.kg",
+  "kh": null,
+  "ki": "whois.nic.mu",
+  "km": null,
+  "kn": null,
+  "kp": null,
+  "kr": "whois.kr",
+  "kw": null,
+  "ky": null,
+  "kz": "whois.nic.kz",
+  "la": "whois.nic.la",
+  "lb": null,
+  "lc": "whois.afilias-grs.info",
+  "li": "whois.nic.li",
+  "lk": "whois.nic.lk",
+  "lr": null,
+  "ls": null,
+  "lt": "whois.domreg.lt",
+  "lu": "whois.dns.lu",
+  "lv": "whois.nic.lv",
+  "ly": "whois.nic.ly",
+  "ma": "whois.iam.net.ma",
+  "mc": null,
+  "md": null,
+  "me": "whois.nic.me",
+  "mf": null,
+  "mg": "whois.nic.mg",
+  "mh": null,
+  "mk": "whois.marnet.mk",
+  "ml": "whois.dot.ml",
+  "mm": null,
+  "mn": "whois.nic.mn",
+  "mo": null,
+  "mp": null,
+  "mq": null,
+  "mr": null,
+  "ms": "whois.nic.ms",
+  "mt": null,
+  "mu": "whois.nic.mu",
+  "mv": null,
+  "mw": null,
+  "mx": "whois.mx",
+  "my": "whois.domainregistry.my",
+  "mz": null,
+  "na": "whois.na-nic.com.na",
+  "nc": "whois.nc",
+  "ne": null,
+  "nf": "whois.nic.nf",
+  "ng": "whois.nic.net.ng",
+  "ni": null,
+  "nl": "whois.domain-registry.nl",
+  "no": "whois.norid.no",
+  "np": null,
+  "nr": null,
+  "nu": "whois.iis.nu",
+  "nz": "whois.srs.net.nz",
+  "om": "whois.registry.om",
+  "pa": null,
+  "pe": "kero.yachay.pe",
+  "pf": "whois.registry.pf",
+  "pg": null,
+  "ph": null,
+  "pk": null,
+  "co.pl": "whois.co.pl",
+  "pl": "whois.dns.pl",
+  "pm": "whois.nic.pm",
+  "pn": null,
+  "pr": "whois.nic.pr",
+  "ps": "whois.pnina.ps",
+  "pt": "whois.dns.pt",
+  "pw": "whois.nic.pw",
+  "py": null,
+  "qa": "whois.registry.qa",
+  "re": "whois.nic.re",
+  "ro": "whois.rotld.ro",
+  "rs": "whois.rnids.rs",
+  "edu.ru": "whois.informika.ru",
+  "ru": "whois.tcinet.ru",
+  "rw": "whois.ricta.org.rw",
+  "sa": "whois.nic.net.sa",
+  "sb": "whois.nic.sb",
+  "sc": "whois.afilias-grs.info",
+  "sd": null,
+  "se": "whois.iis.se",
+  "sg": "whois.sgnic.sg",
+  "sh": "whois.nic.sh",
+  "si": "whois.arnes.si",
+  "sj": null,
+  "sk": "whois.sk-nic.sk",
+  "sl": "whois.nic.sl",
+  "sm": "whois.nic.sm",
+  "sn": "whois.nic.sn",
+  "so": "whois.nic.so",
+  "sr": null,
+  "ss": null,
+  "st": "whois.nic.st",
+  "su": "whois.tcinet.ru",
+  "sv": null,
+  "sx": "whois.sx",
+  "sy": "whois.tld.sy",
+  "sz": null,
+  "tc": "whois.adamsnames.tc",
+  "td": null,
+  "tf": "whois.nic.tf",
+  "tg": null,
+  "th": "whois.thnic.co.th",
+  "tj": null,
+  "tk": "whois.dot.tk",
+  "tl": "whois.nic.tl",
+  "tm": "whois.nic.tm",
+  "tn": "whois.ati.tn",
+  "to": "whois.tonic.to",
+  "tp": null,
+  "tr": "whois.nic.tr",
+  "tt": null,
+  "tv": "tvwhois.verisign-grs.com",
+  "tw": "whois.twnic.net.tw",
+  "tz": "whois.tznic.or.tz",
+  "biz.ua": "whois.biz.ua",
+  "co.ua": "whois.co.ua",
+  "pp.ua": "whois.pp.ua",
+  "ua": "whois.ua",
+  "ug": "whois.co.ug",
+  "ac.uk": "whois.ja.net",
+  "bl.uk": null,
+  "british-library.uk": null,
+  "gov.uk": "whois.ja.net",
+  "icnet.uk": null,
+  "jet.uk": null,
+  "mod.uk": null,
+  "nhs.uk": null,
+  "nls.uk": null,
+  "parliament.uk": null,
+  "police.uk": null,
+  "uk": "whois.nic.uk",
+  "um": null,
+  "fed.us": "whois.nic.gov",
+  "us": "whois.nic.us",
+  "com.uy": null,
+  "uy": "whois.nic.org.uy",
+  "uz": "whois.cctld.uz",
+  "va": null,
+  "vc": "whois.afilias-grs.info",
+  "ve": "whois.nic.ve",
+  "vg": "whois.adamsnames.tc",
+  "vi": null,
+  "vn": null,
+  "vu": "vunic.vu",
+  "wf": "whois.nic.wf",
+  "ws": "whois.website.ws",
+  "ye": null,
+  "yt": "whois.nic.yt",
+  "ac.za": "whois.ac.za",
+  "alt.za": "whois.alt.za",
+  "co.za": "whois.registry.net.za",
+  "gov.za": "whois.gov.za",
+  "net.za": "whois.net.za",
+  "org.za": null,
+  "web.za": "whois.web.za",
+  "za": null,
+  "zm": "whois.nic.zm",
+  "zw": null,
+
+  "xn--3e0b707e": "whois.kr",
+  "xn--45brj9c": "whois.inregistry.net",
+  "xn--80ao21a": "whois.nic.kz",
+  "xn--90a3ac": "whois.rnids.rs",
+  "xn--clchc0ea0b2g2a9gcd": "whois.sgnic.sg",
+  "xn--fiqs8s": "cwhois.cnnic.cn",
+  "xn--fiqz9s": "cwhois.cnnic.cn",
+  "xn--fpcrj9c3d": "whois.inregistry.net",
+  "xn--fzc2c9e2c": "whois.nic.lk",
+  "xn--gecrj9c": "whois.inregistry.net",
+  "xn--h2brj9c": "whois.inregistry.net",
+  "xn--j1amh": "whois.dotukr.com",
+  "xn--j6w193g": "whois.hkirc.hk",
+  "xn--kprw13d": "whois.twnic.net.tw",
+  "xn--kpry57d": "whois.twnic.net.tw",
+  "xn--l1acc": "whois.nic.mn",
+  "xn--lgbbat1ad8j": "whois.nic.dz",
+  "xn--mgb9awbf": "whois.registry.om",
+  "xn--mgba3a4f16a": "whois.nic.ir",
+  "xn--mgbaam7a8h": "whois.aeda.net.ae",
+  "xn--mgbayh7gpa": null,
+  "xn--mgbbh1a71e": "whois.inregistry.net",
+  "xn--mgbc0a9azcg": null,
+  "xn--mgberp4a5d4ar": "whois.nic.net.sa",
+  "xn--mgbx4cd0ab": "whois.domainregistry.my",
+  "xn--o3cw4h": "whois.thnic.co.th",
+  "xn--ogbpf8fl": "whois.tld.sy",
+  "xn--p1ai": "whois.tcinet.ru",
+  "xn--pgbs0dh": null,
+  "xn--s9brj9c": "whois.inregistry.net",
+  "xn--wgbh1c": "whois.dotmasr.eg",
+  "xn--wgbl6a": "whois.registry.qa",
+  "xn--xkc2al3hye2a": "whois.nic.lk",
+  "xn--xkc2dl3a5ee0h": "whois.inregistry.net",
+  "xn--yfro4i67o": "whois.sgnic.sg",
+  "xn--ygbi2ammx": "whois.pnina.ps",
+
+  "": "whois.ripe.net",
+
+  "_": {
+    "ipv4": {
+      "host": "whois.arin.net",
+      "query": "n + $addr\r\n"
+    }
+  }
+}

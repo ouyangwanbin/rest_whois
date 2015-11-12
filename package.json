@@ -5,10 +5,20 @@
   "keywords": [
     "rest"
   ],
+  "scripts":{
+    "start":"node server.js",
+    "test":"mocha test/test_server.js"
+  },
   "author": "ouyangwanbin",
   "dependencies": {
     "body-parser": "^1.13.1",
     "express": "^4.13.3",
-    "jsonwebtoken": "5.4.1"
+    "jsonwebtoken": "5.4.1",
+    "whois": "^2.1.4"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-http": "^1.0.0",
+    "mocha": "^2.3.1"
   }
 }
