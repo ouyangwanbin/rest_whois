@@ -43,7 +43,10 @@ function batchWhois( domains, index, result, res ){
 		if( err ){
 			console.log( err );
 		}else{
-			result.data.push( data );
+			var _data = {};
+			_data.domain = domains[index];
+			_data.info = data;
+			result.data.push( _data );
 		}
 		batchWhois( domains , index+1 , result, res );
 	});
