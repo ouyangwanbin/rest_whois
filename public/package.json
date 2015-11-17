@@ -1,0 +1,13 @@
+{
+  "name": "rest_whois_client",
+  "version": "1.0.0",
+  "description": "web app for whois query",
+  "keywords": [
+    "rest"
+  ],
+  "author": "ouyangwanbin",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "jquery": "^1.9.1"
+  }
+}
