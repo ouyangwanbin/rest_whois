@@ -5,14 +5,15 @@
   "keywords": [
     "rest"
   ],
-  "scripts":{
-    "start":"node server.js",
-    "test":"mocha test/test_server.js"
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test/test_server.js"
   },
   "author": "ouyangwanbin",
   "dependencies": {
     "body-parser": "^1.13.1",
     "express": "^4.13.3",
+    "jade": "^1.11.0",
     "jsonwebtoken": "5.4.1",
     "whois": "^2.1.4"
   },
